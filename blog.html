@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+        integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous" />
+
+
+    <!-- date time picker -->
+    <link rel="stylesheet" href="./Css/jquery.datetimepicker.min.css">
+    <!--  end date time picker -->
+    <link rel="stylesheet" href="./Css/blog.css">
+
+</head>
+
+<body>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="./index.html"><span> H</span> O T E L</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active ml-5">
+                    <a class="nav-link" href="./index.html">Home <span class=" sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active ml-5">
+                    <a class="nav-link" href="./about.html">About us <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active ml-5">
+                    <a class="nav-link" href="./rooms.html">Rooms <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active ml-5">
+                    <a class="nav-link" href="./blog.html">Blog <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active ml-5">
+                    <a class="nav-link" href="./contact.html">Contact <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active mr-5 ml-5">
+                    <button type="button" class="btn btn-outline-warning">Book Online</button>
+                </li>
+          
+            </ul>
+        </div>
+    </nav>
+    <div class="bgi">
+        <div class="HomeColor"></div>
+        <div class="all">
+            <div class="text ">
+                <h1 class="fittext"><span>B</span>log</h1>
+                <!-- <p>A LUXURY STAY</p> -->
+            </div>
+            <div class="container" style="margin-top: 100px;" >
+                <div class="row">
+                    <div class="book col-xl-2 col-lg-2 "><input id="datetime" type="text" placeholder="Check in "
+                            class="input"></div>
+                    <div class="book col-xl-2 col-lg-2 "><input id="datetime1" type="text" placeholder="Check Out "
+                            class="input">
+                    </div>
+                    <div class="book col-xl-2 col-lg-2 "><input type="number" placeholder="Childern " class="input">
+                    </div>
+                    <div class="book col-xl-2 col-lg-2 "> <input type="number" placeholder="Rooms " class="input"></div>
+                    <div class="book col-xl-2 col-lg-2 "><button class="btn1 "> Book Now </button></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- start details of blog -->
+    <div class="container">
+        <div class="row">
+            <div class="card cardOfBlog mb-3 col-xl-4 col-md-6">
+                <img src="./Images/resturants.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <a href="#">
+                        <h3 class="card-title">Top dream destinations</h3>
+                    </a>
+                    <p class="card-text">Vivamus auctor mi eget odio feugiat, quis aliquet velit ornare. Integer egestas
+                        sit amet neque sed elementum. Fusce ut turpis felis. Etiam pretium pharetra augue, ac porttitor
+                        dolor consequat eget. Cras tempor suscipit enim vehicula ultrices. Mauris sed orci blandit.</p>
+                    <button type="button">Read More</button>
+                </div>
+
+            </div>
+            <div class="card cardOfBlog mb-3 col-xl-4 col-md-6">
+
+                <img src="./Images/book-stay.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <a href="#">
+                        <h3 class="card-title">How to book your stay</h3>
+                    </a>
+                    <p class="card-text">Vivamus auctor mi eget odio feugiat, quis aliquet velit ornare. Integer egestas
+                        sit amet neque sed elementum. Fusce ut turpis felis. Etiam pretium pharetra augue, ac porttitor
+                        dolor consequat eget. Cras tempor suscipit enim vehicula ultrices. Mauris sed orci blandit.</p>
+                    <button type="button">Read More</button>
+                </div>
+
+            </div>
+            <div class="card cardOfBlog mb-3 col-xl-4 col-md-6">
+                <img src="./Images/perfect-wedding.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <a href="#">
+                        <h3 class="card-title">Perfect beach wedding</h3>
+                    </a>
+                    <p class="card-text">Vivamus auctor mi eget odio feugiat, quis aliquet velit ornare. Integer egestas
+                        sit amet neque sed elementum. Fusce ut turpis felis. Etiam pretium pharetra augue, ac porttitor
+                        dolor consequat eget. Cras tempor suscipit enim vehicula ultrices. Mauris sed orci blandit.</p>
+                    <button type="button">Read More</button>
+                </div>
+
+            </div>
+        </div>
+
+
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="search">
+                <form class="form-inline">
+                    <input class="form-control" type="search" placeholder="Keyword" aria-label="Search">
+                    <button class="btn  " type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row  info">
+            <div class="col-xl-6">
+                <h4>Recent Posts</h4>
+                <a href="#">
+                    <p>Featured Product</p>
+                </a>
+                <a href="#">
+                    <p>Standard Post</p>
+                </a>
+                <a href="#">
+                    <p>Gallery Post</p>
+                </a>
+                <a href="#">
+                    <p>Video Post</p>
+                </a>
+                <a href="#">
+                    <p>Audio Post</p>
+                </a>
+            </div>
+            <div class="col-xl-6">
+                <h4>Categories</h4>
+                <a href="#">
+                    <p>News</p>
+                </a>
+                <a href="#">
+                    <p>Hotel</p>
+                </a>
+                <a href="#">
+                    <p>Vacation</p>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <h4>Tags</h4>
+        <div class="row info">
+            <div class="col-xl-2 col-md-4 col-lg-3">
+                <a href="#">
+                    <p>news</p>
+                </a>
+            </div>
+            <div class="col-xl-2 col-md-4 col-lg-3">
+                <a href="#">
+                    <p>hotel</p>
+                </a>
+            </div>
+            <div class="col-xl-2 col-md-4 col-lg-3">
+                <a href="#">
+                    <p>vacation</p>
+                </a>
+            </div>
+            <div class="col-xl-2 col-md-4 col-lg-3">
+                <a href="#">
+                    <p>reservation</p>
+                </a>
+            </div>
+            <div class="col-xl-2 col-md-4 col-lg-3">
+                <a href="#">
+                    <p>booking</p>
+                </a>
+            </div>
+            <div class="col-xl-2 col-md-4 col-lg-3">
+                <a href="#">
+                    <p>video</p>
+                </a>
+            </div>
+            <div class="col-xl-2 col-md-4 col-lg-3">
+                <a href="#">
+                    <p>clients</p>
+                </a>
+            </div>
+            <div class="col-xl-2 col-md-4 col-lg-3">
+                <a href="#">
+                    <p>reviews</p>
+                </a>
+            </div>
+            <div class="col-xl-2 col-md-4 col-lg-3">
+                <a href="#">
+                    <p>destinations</p>
+                </a>
+            </div>
+            <div class="col-xl-2 col-md-4 col-lg-3">
+                <a href="#">
+                    <p>swimming pool</p>
+                </a>
+            </div>
+        </div>
+    </div>
+    <hr />
+
+
+    <div class="hotel fittext" style="margin-top: 150px;text-align: center; font-size: 40px; border: 3px solid;"> <b>
+            The Hotel </b> </div>
+
+    <p style="margin-top: 20px;text-align: center; font-size: 25px; "> since 1920</p>
+
+
+
+    <div class="container" style="margin-top: 80px;">
+        <div class="row">
+            <div class="col-md-3">
+                <h3>Our Address</h3>
+                <p> Beach Str. 345</p>
+                <p> 67559 Miami </p>
+                <p> USA</p>
+            </div>
+            <div class="col-md-3">
+                <h3>Reservation</h3>
+                <p>Tel: 345 5667 889</p>
+                <p> Fax; 6783 4567 889</p>
+                <p> reservations@hotelriver.com</p>
+            </div>
+            <div class="col-md-3">
+                <h3>News Letter</h3>
+                <br>
+                <input style="border-top:none; border-left: none; border-right: none" placeholder="Enter your mail "
+                    type="mail">
+                <br><br>
+                <button type="button" class="btn btn-lg" style="background-color: #ffae42;">Subscribe</button>
+
+            </div>
+            <div class="col-md-3">
+                <img src="./Images/certificate1.png" width="150px" alt="">
+                <img src="./Images/certificate2.png" width="100px" alt="">
+            </div>
+        </div>
+    </div>
+
+
+    <div class="foo" style="text-align: center; margin-top: 50px; margin-bottom: 40px; ">copyright &copy;2021 All right reserved | This
+        template is made by Sakr
+        & Sayed</div>
+    
+
+    <script src="./JS/jquery-3.5.1.slim.min.js"></script>
+    <script src="./JS/popper.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+
+
+    <script src="jquery.min.js"></script>
+
+    <script src="./JS/jquery.datetimepicker.full.min.js"></script>
+
+    <script src="./JS/owl.carousel.min.js"></script>
+    <script src="./JS/jquery.fittext.js"></script>
+    <script src="./JS/Main.js"></script>
+
+</body>
+
+
+</html>
